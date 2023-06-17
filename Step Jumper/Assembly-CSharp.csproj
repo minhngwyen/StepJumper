@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Game\Player Controller.cs" />
+    <Compile Include="Assets\Resources\ManagerVars.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
