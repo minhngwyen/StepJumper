@@ -93,7 +93,14 @@ public class PlayerController : MonoBehaviour
             GameManager.Instance.IsGameOver = true;
             StartCoroutine(DealyShowGameOverPanel());
         }
-        
+        if (isJumping && IsRayObstacle() && GameManager.Instance.IsGameOver == false)
+        {
+            GetDeathEffect();
+            GameManager.Instance.IsGameOver = true;
+            spriteRenderer.enabled = false;
+            StartCoroutine(DealyShowGameOverPanel());
+        }
+
         if (transform.position.y - Camera.main.transform.position.y < -5 && GameManager.Instance.IsGameOver == false)
         {
             GameManager.Instance.IsGameOver = true;
@@ -105,6 +112,12 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         EventCenter.Broadcast(EventDefine.ShowGameOverPanel);
+    }
+  
+
+    public void GetDeathEffect()
+    {
+       
     }
     private void FollowPlayer()
     {
@@ -142,7 +155,25 @@ public class PlayerController : MonoBehaviour
     /// <returns></returns>
     private bool IsRayObstacle()
     {
-        return true;
+        RaycastHit2D leftHit = Physics2D.Raycast(rayLeft.position, Vector2.left, 0.15f, obstacleLayer);
+        RaycastHit2D rightHit = Physics2D.Raycast(rayRight.position, Vector2.right, 0.15f, obstacleLayer);
+
+        if (leftHit.collider != null)
+        {
+            if (leftHit.collider.tag == "Obstacle")
+            {
+                return true;
+            }
+        }
+
+        if (rightHit.collider != null)
+        {
+            if (rightHit.collider.tag == "Obstacle")
+            {
+                return true;
+            }
+        }
+        return false;
     }
     private void Jump()
     {

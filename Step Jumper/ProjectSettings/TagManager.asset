@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Stair
   - Platform
+  - Obstacle
   layers:
   - Default
   - TransparentFX
