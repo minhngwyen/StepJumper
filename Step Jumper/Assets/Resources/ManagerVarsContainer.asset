@@ -32,12 +32,16 @@ MonoBehaviour:
   - {fileID: 21300006, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
   - {fileID: 21300010, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
   - {fileID: 21300014, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
-  characterPre: {fileID: 0}
+  characterPre: {fileID: 8594784379150273437, guid: 92653fc9aec1a8d4a9b1d5c83e0c149e, type: 3}
   skinChooseItemPre: {fileID: 0}
   skinNameList: []
   skinPrice: 
-  normalPlatformPre: {fileID: 0}
-  commonPlatformGroup: []
+  normalPlatformPre: {fileID: 1707789333618926, guid: 6463255dbe7d82a4dafa5afe8639f1b5, type: 3}
+  commonPlatformGroup:
+  - {fileID: 1718202181510176, guid: 03822589b3646994198e9bc0f7842616, type: 3}
+  - {fileID: 1060829081277170, guid: 911f5eddba9f9a547a36f873855154d1, type: 3}
+  - {fileID: 1862529822596274, guid: 77d6754891a12a94ba01a3b658021ec3, type: 3}
+  - {fileID: 1505930955668414, guid: 530fc684d95be154a906273ddaa2f96d, type: 3}
   grassPlatformGroup: []
   winterPlatformGroup: []
   spikePlatformLeft: {fileID: 0}
