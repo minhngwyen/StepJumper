@@ -32,7 +32,7 @@ MonoBehaviour:
   - {fileID: 21300006, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
   - {fileID: 21300010, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
   - {fileID: 21300014, guid: 0c7b4faa2ba890e45a9bcb89c3349cde, type: 3}
-  characterPre: {fileID: 8594784379150273437, guid: 92653fc9aec1a8d4a9b1d5c83e0c149e, type: 3}
+  characterPre: {fileID: 1509835272556102, guid: b47bb687b1f44bc4fae186f25c282470, type: 3}
   skinChooseItemPre: {fileID: 0}
   skinNameList: []
   skinPrice: 
@@ -42,12 +42,17 @@ MonoBehaviour:
   - {fileID: 1060829081277170, guid: 911f5eddba9f9a547a36f873855154d1, type: 3}
   - {fileID: 1862529822596274, guid: 77d6754891a12a94ba01a3b658021ec3, type: 3}
   - {fileID: 1505930955668414, guid: 530fc684d95be154a906273ddaa2f96d, type: 3}
-  grassPlatformGroup: []
-  winterPlatformGroup: []
-  spikePlatformLeft: {fileID: 0}
-  spikePlatformRight: {fileID: 0}
-  deathEffect: {fileID: 0}
-  diamondPre: {fileID: 0}
+  grassPlatformGroup:
+  - {fileID: 1189566386295524, guid: 7cff1ef5dba437c469dfe6f84ec04f5c, type: 3}
+  - {fileID: 1552161325273618, guid: 0268eb9dbc42fef429b565ca74b7b3b1, type: 3}
+  winterPlatformGroup:
+  - {fileID: 1370544064376614, guid: 1ca84a38f735ec84ba5ca2a31fc441a5, type: 3}
+  - {fileID: 1989976659917776, guid: 2b64d0d0a0d0d6c468f58d246222415b, type: 3}
+  - {fileID: 1648357431825086, guid: 4093d62a5e76d5743a4222f96b4a83b7, type: 3}
+  spikePlatformLeft: {fileID: 1307385245424574, guid: 1218ee35c8e636a449e5a21e6ab1d3bd, type: 3}
+  spikePlatformRight: {fileID: 1147806299915752, guid: 18add40332af93a4aa72d8c27d92f639, type: 3}
+  deathEffect: {fileID: 1347158072813704, guid: ca27b5001907967438cdb281f0849b8e, type: 3}
+  diamondPre: {fileID: 1540593330715708, guid: b52ab2e147cffb744acec4ece727f8e5, type: 3}
   nextXPos: 0.554
   nextYPos: 0.645
   jumpClip: {fileID: 0}
