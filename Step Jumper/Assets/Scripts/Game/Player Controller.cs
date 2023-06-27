@@ -83,7 +83,6 @@ public class PlayerController : MonoBehaviour
                 isMoveLeft = false;
             }
             Jump();
-            FollowPlayer();
         }
 
         if (rb.velocity.y < 0 && IsRayPlatform() == false && GameManager.Instance.IsGameOver == false)
@@ -119,11 +118,7 @@ public class PlayerController : MonoBehaviour
     {
        
     }
-    private void FollowPlayer()
-    {
-        Vector3 targetPosition = new Vector3(transform.position.x, transform.position.y, mainCamera.transform.position.z);
-        mainCamera.transform.position = Vector3.Lerp(mainCamera.transform.position, targetPosition, cameraFollowSpeed * Time.deltaTime);
-    }
+   
     private GameObject lastHitGo = null;
     /// <summary>
     /// </summary>
