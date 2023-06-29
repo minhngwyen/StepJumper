@@ -3,7 +3,22 @@ guid: 2a328f40cf6453f40a6663b029f34487
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - characterPre: {instanceID: 0}
+  - skinChooseItemPre: {instanceID: 0}
+  - normalPlatformPre: {instanceID: 0}
+  - spikePlatformLeft: {instanceID: 0}
+  - spikePlatformRight: {instanceID: 0}
+  - deathEffect: {instanceID: 0}
+  - diamondPre: {instanceID: 0}
+  - jumpClip: {instanceID: 0}
+  - fallClip: {instanceID: 0}
+  - hitClip: {instanceID: 0}
+  - diamondClip: {instanceID: 0}
+  - buttonClip: {instanceID: 0}
+  - themeClip: {instanceID: 0}
+  - musicOn: {instanceID: 0}
+  - musicOff: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

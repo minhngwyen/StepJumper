@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     /// Di chuyển sang trái hay sang phải
     /// </summary>
     private bool isMoveLeft = false;
-    /// <summary>
+    /// <summary>c
     /// đang nhảy
     /// </summary>
     private bool isJumping = false;
@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private bool isMove = false;
-    private Camera mainCamera;
+    private AudioSource m_AudioSource;
+
 
     private void Awake()
     {
@@ -34,7 +35,7 @@ public class PlayerController : MonoBehaviour
         vars = ManagerVars.GetManagerVars();
         spriteRenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
-        mainCamera = Camera.main;
+        m_AudioSource = GetComponent<AudioSource>();
     }
     
   
@@ -69,6 +70,7 @@ public class PlayerController : MonoBehaviour
                 EventCenter.Broadcast(EventDefine.PlayerMove);
                 isMove = true;
             }
+            m_AudioSource.PlayOneShot(vars.jumpClip);
             EventCenter.Broadcast(EventDefine.DecidePath);
             isJumping = true;
             Vector3 mousePos = Input.mousePosition;
@@ -87,6 +89,7 @@ public class PlayerController : MonoBehaviour
 
         if (rb.velocity.y < 0 && IsRayPlatform() == false && GameManager.Instance.IsGameOver == false)
         {
+            m_AudioSource.PlayOneShot(vars.fallClip);
             spriteRenderer.sortingLayerName = "Default";
             GetComponent<BoxCollider2D>().enabled = false;
             GameManager.Instance.IsGameOver = true;
@@ -94,6 +97,7 @@ public class PlayerController : MonoBehaviour
         }
         if (isJumping && IsRayObstacle() && GameManager.Instance.IsGameOver == false)
         {
+            m_AudioSource.PlayOneShot(vars.hitClip);
             GetDeathEffect();
             GameManager.Instance.IsGameOver = true;
             spriteRenderer.enabled = false;
@@ -102,6 +106,7 @@ public class PlayerController : MonoBehaviour
 
         if (transform.position.y - Camera.main.transform.position.y < -5 && GameManager.Instance.IsGameOver == false)
         {
+            m_AudioSource.PlayOneShot(vars.fallClip);
             GameManager.Instance.IsGameOver = true;
             StartCoroutine(DealyShowGameOverPanel());
         }
@@ -198,6 +203,16 @@ public class PlayerController : MonoBehaviour
                 vars.nextXPos, currentPlatformPos.y + vars.nextYPos, 0);
             nextPlatformRight = new Vector3(currentPlatformPos.x +
                 vars.nextXPos, currentPlatformPos.y + vars.nextYPos, 0);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Pickup")
+        {
+            m_AudioSource.PlayOneShot(vars.diamondClip);
+            EventCenter.Broadcast(EventDefine.AddDiamond);
+
+            collision.gameObject.SetActive(false);
         }
     }
 

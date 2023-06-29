@@ -46,10 +46,10 @@ MonoBehaviour:
   diamondPre: {fileID: 0}
   nextXPos: 0.554
   nextYPos: 0.645
-  jumpClip: {fileID: 0}
-  fallClip: {fileID: 0}
-  hitClip: {fileID: 0}
-  diamondClip: {fileID: 0}
+  jumpClip: {fileID: 8300000, guid: e134e65e81a7a394aa1c06baab08a2a5, type: 3}
+  fallClip: {fileID: 8300000, guid: 24c63bfc663eaf349bcf56b05b4a7528, type: 3}
+  hitClip: {fileID: 8300000, guid: c914a7ae256c6004793f408bd7f9679d, type: 3}
+  diamondClip: {fileID: 8300000, guid: e2c2c3448c8118a4e9f6300b028cd663, type: 3}
   buttonClip: {fileID: 0}
   themeClip: {fileID: 0}
   musicOn: {fileID: 0}
