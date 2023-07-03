@@ -304,3 +304,75 @@ Received Import Request.
 Start importing Assets/GamePanel.prefab using Guid(95949109ea9f6b94da35445dbed7f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f9b0822a384edf1180f9b263f77077') in 0.014398 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 358.915164 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(a5b30b7eef8361a4eba6d166b647c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(a5b30b7eef8361a4eba6d166b647c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8663bac617c13df333a80e316469366') in 0.000660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.427245 seconds.
+  path: Assets/Sounds/button.mp3
+  artifactKey: Guid(dcf2ae5ff2f462d4aac30c39fc57a6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/button.mp3 using Guid(dcf2ae5ff2f462d4aac30c39fc57a6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dce996afeac1b841b41dff8b5913cf5') in 0.043413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sounds/retro_fail_sound_04.wav
+  artifactKey: Guid(0939b21afa5555a4f95d77571a51f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/retro_fail_sound_04.wav using Guid(0939b21afa5555a4f95d77571a51f065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa0e32ef2b01f527fb1c16938eebbb8') in 0.017072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sounds/diamond.mp3
+  artifactKey: Guid(aa68133b1dbbf274a9928678382f3ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/diamond.mp3 using Guid(aa68133b1dbbf274a9928678382f3ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb67aab91b2a194f621d463ea8dd368') in 0.014939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sounds/jump.mp3
+  artifactKey: Guid(424d18478cf056943af18ecf2a796849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/jump.mp3 using Guid(424d18478cf056943af18ecf2a796849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5f2a0e82064ece9d6d4d46d47a14a9') in 0.013485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10553.377825 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e88c65d3ce3119f43a7f8168db5528a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e88c65d3ce3119f43a7f8168db5528a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdee26964e95e4553f96d667d5567c1') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.899042 seconds.
+  path: Assets/Scenes/GameScene - Copy.unity
+  artifactKey: Guid(342e2bbe121e3d24db1c6b9d31645d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene - Copy.unity using Guid(342e2bbe121e3d24db1c6b9d31645d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b9a1dba22e855fbef9e8453a847292') in 0.000374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.668217 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(54c6d9255c15bf541bad24c12e32ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(54c6d9255c15bf541bad24c12e32ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655af1c50d7a17f8917e8d08c9df3dbf') in 0.000396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.988157 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(342e2bbe121e3d24db1c6b9d31645d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(342e2bbe121e3d24db1c6b9d31645d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92aae4bff89623a515b39cd8de45f19e') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

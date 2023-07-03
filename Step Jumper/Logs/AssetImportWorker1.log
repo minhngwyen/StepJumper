@@ -240,3 +240,27 @@ Received Import Request.
 Start importing Assets/Prefabs/Step/SpikePlatformLeft.prefab using Guid(b8ebd0b8ed89a3a44bee7ef8d607ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e49b7195040fa25a16e6211f60401f') in 0.015026 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 693.668482 seconds.
+  path: Assets/Sounds/cartoon_squirt_04.wav
+  artifactKey: Guid(5d0b4811985071e45a1dc73dcd046b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/cartoon_squirt_04.wav using Guid(5d0b4811985071e45a1dc73dcd046b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5347e5c4503481335a6ec006aee7d0d6') in 0.039154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sounds/music_happy_high_pop_advertising_jingle.wav
+  artifactKey: Guid(888b0fa2db903ea41b5d98a636670e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/music_happy_high_pop_advertising_jingle.wav using Guid(888b0fa2db903ea41b5d98a636670e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d121733bb84edec0bb0df436382c768') in 0.016894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sounds/hit.mp3
+  artifactKey: Guid(b3617e633d42f08468e75798726d4a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/hit.mp3 using Guid(b3617e633d42f08468e75798726d4a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819fb3297c58cdeb5f3a266006d490e0') in 0.015084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
