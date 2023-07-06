@@ -50,3 +50,6 @@ TagManager:
   - name: Platform
     uniqueID: 2871843223
     locked: 0
+  - name: GUI
+    uniqueID: 978140191
+    locked: 0
