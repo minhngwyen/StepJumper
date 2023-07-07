@@ -63,6 +63,7 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+    <Compile Include="Assets\Scripts\UI\ResetPanel.cs" />
     <Compile Include="Assets\Scripts\Game\GameData.cs" />
     <Compile Include="Assets\Scripts\Common\CallBack.cs" />
     <Compile Include="Assets\Scripts\Common\EventDefine.cs" />
