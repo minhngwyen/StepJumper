@@ -15,7 +15,7 @@ D:/1_PRU311/New folder/StepJumper/Step Jumper
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51733
+56727
 Successfully changed project path to: D:/1_PRU311/New folder/StepJumper/Step Jumper
 D:/1_PRU311/New folder/StepJumper/Step Jumper
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/1_PRU311/New folder/StepJumper/Step Jumper
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11100] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3072817446 [EditorId] 3072817446 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-15HNI3PK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17648] Host "[IP] 192.168.1.22 [Port] 0 [Flags] 2 [Guid] 1435701623 [EditorId] 1435701623 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-15HNI3PK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11100] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 3072817446 [EditorId] 3072817446 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-15HNI3PK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17648] Host "[IP] 192.168.1.22 [Port] 0 [Flags] 2 [Guid] 1435701623 [EditorId] 1435701623 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-15HNI3PK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 13.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path D:/Unity/Hub/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Hub/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Hub/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Hub/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Hub/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003781 seconds.
-- Loaded All Assemblies, in  0.372 seconds
+Registered in 0.005734 seconds.
+- Loaded All Assemblies, in  0.459 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.334 seconds
-Domain Reload Profiling: 706ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (144ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (159ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (143ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (161ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (334ms)
+	FinalizeReload (399ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (301ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (14ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (73ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\1_PRU311\New folder\StepJumper\Step Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\1_PRU311\New folder\StepJumper\Step Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.985 seconds
-Refreshing native plugins compatible for Editor in 5.41 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.823 seconds
+Refreshing native plugins compatible for Editor in 9.61 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.639 seconds
-Domain Reload Profiling: 1624ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.910 seconds
+Domain Reload Profiling: 2735ms
+	BeginReloadAssembly (449ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (26ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (39ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (62ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (733ms)
-		LoadAssemblies (445ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (1243ms)
+		LoadAssemblies (843ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (362ms)
-			TypeCache.Refresh (331ms)
-				TypeCache.ScanAssembly (314ms)
+		AnalyzeDomain (661ms)
+			TypeCache.Refresh (629ms)
+				TypeCache.ScanAssembly (593ms)
 			ScanForSourceGeneratedMonoScriptInfo (27ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (639ms)
+	FinalizeReload (912ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (451ms)
+		SetupLoadedEditorAssemblies (635ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 6.03 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 19.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4228 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (68.2 KB). Loaded Objects now: 4682.
-Memory consumption went from 147.7 MB to 147.7 MB.
-Total: 5.426500 ms (FindLiveObjects: 0.575600 ms CreateObjectMapping: 0.127100 ms MarkObjects: 4.494700 ms  DeleteObjects: 0.227000 ms)
+Unloading 4229 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (68.4 KB). Loaded Objects now: 4684.
+Memory consumption went from 147.9 MB to 147.8 MB.
+Total: 14.534500 ms (FindLiveObjects: 1.217100 ms CreateObjectMapping: 1.075500 ms MarkObjects: 10.554500 ms  DeleteObjects: 1.684700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,217 +182,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7596.409228 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/ImageGroup_Victory_Deco_Trumpet2.png
-  artifactKey: Guid(3b7cf306af36e4c02a3c110624746e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/ImageGroup_Victory_Deco_Trumpet2.png using Guid(3b7cf306af36e4c02a3c110624746e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347aea04127ce4c54937f7cfb8fb7912') in 0.113348 seconds
+  Time since last request: 233783.993637 seconds.
+  path: Assets/Scripts/Game/PlayerController.cs
+  artifactKey: Guid(c8696fc063187a84f83203344e3a5b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/PlayerController.cs using Guid(c8696fc063187a84f83203344e3a5b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf14d80a3138a1638d34e196065a54a') in 0.026197 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/ImageGroup_Victory_Deco_Trumpet4.png
-  artifactKey: Guid(bf9400970ac314033b4e171d3b336fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/ImageGroup_Victory_Deco_Trumpet4.png using Guid(bf9400970ac314033b4e171d3b336fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2605f29fab945c83e47107532c0c5c6f') in 0.023611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\1_PRU311\New folder\StepJumper\Step Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\1_PRU311\New folder\StepJumper\Step Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.028 seconds
+Refreshing native plugins compatible for Editor in 4.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 2253ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (695ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (289ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 5.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (43.2 KB). Loaded Objects now: 4688.
+Memory consumption went from 141.8 MB to 141.7 MB.
+Total: 4.252700 ms (FindLiveObjects: 0.512600 ms CreateObjectMapping: 0.226200 ms MarkObjects: 3.419900 ms  DeleteObjects: 0.092600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 179.089541 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_1.png
-  artifactKey: Guid(b06ed476c348d4ddfa7d59c611260f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_1.png using Guid(b06ed476c348d4ddfa7d59c611260f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c54cb6b4b4cc8dffc2a5bb708c4110') in 0.020104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_4.png
-  artifactKey: Guid(c1f2df9e82c034eb0a03837c6fdd7720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_4.png using Guid(c1f2df9e82c034eb0a03837c6fdd7720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35c08f427a19b0334ba7229308bedfe') in 0.018326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_6.png
-  artifactKey: Guid(d8d886cba0ab74a37925e9149a17d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_6.png using Guid(d8d886cba0ab74a37925e9149a17d4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988cd78d74fec3319c255f9a24493dd8') in 0.020464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_8.png
-  artifactKey: Guid(fc2c8877d48f84200992a703c1b44f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_8.png using Guid(fc2c8877d48f84200992a703c1b44f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8359fec2e186d6884465e3caa69e3d') in 0.019429 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_DemoSample2.png
-  artifactKey: Guid(6afa7157ca5db455a861c6ee8d9e6f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_DemoSample2.png using Guid(6afa7157ca5db455a861c6ee8d9e6f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220920523b75da12673f14b918b35428') in 0.052184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_White_3.png
-  artifactKey: Guid(ce255be5597b94b71b9841738a805a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_White_3.png using Guid(ce255be5597b94b71b9841738a805a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611a0aa1507e3499213c1964f0a834b9') in 0.017907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/GUI PRO Kit - Simple Casual/Sprite/Component/Icon_ItemIcons_(x2)/ItemIcons_512/itemicon_rainbow.png
-  artifactKey: Guid(ef081601c8fac44a2b3ad88be2cb93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Simple Casual/Sprite/Component/Icon_ItemIcons_(x2)/ItemIcons_512/itemicon_rainbow.png using Guid(ef081601c8fac44a2b3ad88be2cb93c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd576c63444755361cafd9aac0f09b830') in 0.020986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_White_5.png
-  artifactKey: Guid(048e2b156a8554030a726be540edd94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_White_5.png using Guid(048e2b156a8554030a726be540edd94c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e22f3c0badcf802176f966a8e5077c3') in 0.026285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprite/Demo/Demo_ItemIcon_(OriginalSize)/itemicon_rainbow.png
-  artifactKey: Guid(a76dfc8256f40447393535bc92b188e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_ItemIcon_(OriginalSize)/itemicon_rainbow.png using Guid(a76dfc8256f40447393535bc92b188e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5ffb575c74e1f1f61cf17799cf7240') in 0.028697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_DemoSample3.png
-  artifactKey: Guid(acd3604bfbace42749a864d0405afa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_DemoSample3.png using Guid(acd3604bfbace42749a864d0405afa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227ed7f00c2238bdca536761c3ea82c9') in 0.051536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/GUI PRO Kit - Simple Casual/Sprite/Component/Icon_ItemIcons_(x2)/ItemIcons_256/itemicon_rainbow.png
-  artifactKey: Guid(38cdd3a5dcfc9469cac305cf9e9b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI PRO Kit - Simple Casual/Sprite/Component/Icon_ItemIcons_(x2)/ItemIcons_256/itemicon_rainbow.png using Guid(38cdd3a5dcfc9469cac305cf9e9b4ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e040fb651240bef3500380588469f237') in 0.030732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_9.png
-  artifactKey: Guid(6e2e356a6111c44c1a65e14168b022ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rainbow_9.png using Guid(6e2e356a6111c44c1a65e14168b022ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671afd7b47b2cae9daa7c4992247f57f') in 0.020923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.263185 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rhombus_DemoSample2.png
-  artifactKey: Guid(0457a7b16f6cb45e6b5aa5ad5bf1dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rhombus_DemoSample2.png using Guid(0457a7b16f6cb45e6b5aa5ad5bf1dbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6293c2af61907871ee5839b2186fad0') in 0.027862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rhombus_DemoSample3.png
-  artifactKey: Guid(6eb76a95c07da4a948e76dd986aaec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rhombus_DemoSample3.png using Guid(6eb76a95c07da4a948e76dd986aaec30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7d679b8e849a3d587b59052cd6c39c') in 0.036366 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rotate_1.png
-  artifactKey: Guid(fd238ec09ac1e48048dd00a333fab09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rotate_1.png using Guid(fd238ec09ac1e48048dd00a333fab09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d9a7b94d3ff2c88a20010cac540e1f') in 0.040813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprite/Demo/Demo_Image/Image_Effect_Rhombus_DemoSample4.png
-  artifactKey: Guid(094dbfab0968f4545ae0feda5aeaeafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Demo/Demo_Image/Image_Effect_Rhombus_DemoSample4.png using Guid(094dbfab0968f4545ae0feda5aeaeafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981227537a32ea52e306139f42024489') in 0.034015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 226.021747 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Demo_Light/Slider11_Fill.png
-  artifactKey: Guid(5d41a1e4b29d04b64bd961fa1bc6bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Demo_Light/Slider11_Fill.png using Guid(5d41a1e4b29d04b64bd961fa1bc6bf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bf662f2cb2ea8bc13ea0f4bcb5a4cf') in 0.018309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Custom/Slider11_Fill2.png
-  artifactKey: Guid(b60134dd560a945a1846888467c24f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Custom/Slider11_Fill2.png using Guid(b60134dd560a945a1846888467c24f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7f9c201f90ea7f3b772a430335bf68') in 0.015251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Demo_Dark/Slider11_Fill_DividLine.png
-  artifactKey: Guid(f5e51ae655c874cc392d860342fd6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Demo_Dark/Slider11_Fill_DividLine.png using Guid(f5e51ae655c874cc392d860342fd6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399833b3f3289cffd9b6e09dee4d9565') in 0.016931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Demo_Dark/Slider11_Frame.png
-  artifactKey: Guid(64ce0f7dcc2484d1e898420e2c8eb2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Demo_Dark/Slider11_Frame.png using Guid(64ce0f7dcc2484d1e898420e2c8eb2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcbced6a97d80803a3eb78c1d1745ba') in 0.017584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Demo_Light/Slider11_Frame.png
-  artifactKey: Guid(898593f85c559479fa268624b897de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Demo_Light/Slider11_Frame.png using Guid(898593f85c559479fa268624b897de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c96e613731fd8b789097bdaadaae895') in 0.017963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprite/Component/Frame/Frame_Custom/TableFrame11_White.png
-  artifactKey: Guid(f1ea92810fd90483cab74dbffcf192ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Frame/Frame_Custom/TableFrame11_White.png using Guid(f1ea92810fd90483cab74dbffcf192ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6124211d78c305c7ff9066710479c21') in 0.031789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Demo_Dark/Slider11_FillArea.png
-  artifactKey: Guid(96b04b8b14de449dea4b525881a6d13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Demo_Dark/Slider11_FillArea.png using Guid(96b04b8b14de449dea4b525881a6d13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f154693d1392e0bd2d82f416262360') in 0.026276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Demo_Light/Slider11_Fill_DividLine.png
-  artifactKey: Guid(1fc93c8f6367d4c8f885e2f7ed4257f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Demo_Light/Slider11_Fill_DividLine.png using Guid(1fc93c8f6367d4c8f885e2f7ed4257f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5818ec39f26f47ed7bced464be403ca') in 0.021532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprite/Component/Slider/Slider_Custom/Slider11_White_Frame.png
-  artifactKey: Guid(85171b3befd7844a1a6ce19ca3edde18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Component/Slider/Slider_Custom/Slider11_White_Frame.png using Guid(85171b3befd7844a1a6ce19ca3edde18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a7200786789127e3630179bd1bc90e') in 0.017091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\1_PRU311\New folder\StepJumper\Step Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\1_PRU311\New folder\StepJumper\Step Jumper\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.855 seconds
+Refreshing native plugins compatible for Editor in 6.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.895 seconds
+Domain Reload Profiling: 1750ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (603ms)
+		LoadAssemblies (346ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (297ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (379ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 6.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 53 unused Assets / (43.2 KB). Loaded Objects now: 4691.
+Memory consumption went from 142.0 MB to 142.0 MB.
+Total: 3.970100 ms (FindLiveObjects: 0.411300 ms CreateObjectMapping: 0.124300 ms MarkObjects: 3.226200 ms  DeleteObjects: 0.206200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

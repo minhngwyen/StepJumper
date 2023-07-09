@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Platform
   - Obstacle
+  - Undefined
+  - Pickup
   layers:
   - Default
   - TransparentFX
