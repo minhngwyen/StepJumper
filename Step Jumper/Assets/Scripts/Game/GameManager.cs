@@ -30,8 +30,10 @@ public class GameManager : MonoBehaviour
     private bool isFirstGame;
     private bool isMusicOn;
     private int[] bestScoreArr;
+
     private int selectSkin;
     private bool[] skinUnlocked;
+
     private int diamondCount;
 
     private void Awake()
@@ -48,7 +50,11 @@ public class GameManager : MonoBehaviour
         }
         InitGameData();
     }
- 
+
+    private void Start()
+    {
+    }
+
     private void OnDestroy()
     {
         EventCenter.RemoveListener(EventDefine.AddScore, AddGameScore);
@@ -153,6 +159,7 @@ public class GameManager : MonoBehaviour
         skinUnlocked[index] = true;
         Save();
     }
+
     /// <summary>
     /// </summary>
     /// <returns></returns>
@@ -228,7 +235,7 @@ public class GameManager : MonoBehaviour
         else
         {
             isMusicOn = data.GetIsMusicOn();
-            bestScoreArr = data.GetBestScoreArr();
+            bestScoreArr = data.GetBestScoreArr();D
             selectSkin = data.GetSelectSkin();
             skinUnlocked = data.GetSkinUnlocked();
             diamondCount = data.GetDiamondCount();
