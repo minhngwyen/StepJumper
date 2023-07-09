@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Stair
+  - Platform
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,8 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
+  - Platform
+  - Obstacle
   - 
   - 
   - 
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3591023941
+    locked: 0
+  - name: Platform
+    uniqueID: 2871843223
+    locked: 0
+  - name: GUI
+    uniqueID: 978140191
     locked: 0
